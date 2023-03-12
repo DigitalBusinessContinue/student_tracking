@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bg_recycler_trainer">
+
+
+    <TextView
+        android:id="@+id/txv_no_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="ลำดับที่"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txv_no_title"
+        app:layout_constraintTop_toTopOf="@+id/txv_no_title" />
+
+    <TextView
+        android:id="@+id/txv_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="วันที่"
+        app:layout_constraintStart_toEndOf="@+id/txv_no"
+        app:layout_constraintTop_toTopOf="@+id/txv_no_title" />
+
+    <TextView
+        android:id="@+id/txv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="00-00/0000"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txv_date_title"
+        app:layout_constraintTop_toTopOf="@+id/txv_date_title" />
+
+    <TextView
+        android:id="@+id/txv_memo"
+        android:layout_width="283dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:singleLine="false"
+        android:text="บันทึก"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_no_title" />
+
+    <TextView
+        android:id="@+id/txv_remark_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="หมายเหตุ : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txv_memo" />
+
+    <TextView
+        android:id="@+id/txv_remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txv_remark_title"
+        app:layout_constraintTop_toTopOf="@+id/txv_remark_title" />
+
+    <Button
+        android:id="@+id/btn_dailydetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:text=">"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

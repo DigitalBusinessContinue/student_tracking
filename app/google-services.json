@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "674137334759",
+    "firebase_url": "https://studentcvc-91408-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "studentcvc-91408",
+    "storage_bucket": "studentcvc-91408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674137334759:android:ce83e0a2d013ceb3aa9342",
+        "android_client_info": {
+          "package_name": "com.example.projecttrainning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674137334759-gp14dqcl7efip9blsb58fg9fnnckssqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaGw8a3TtsE3e8ZIAmseo6T-_SiKlrRPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674137334759-gp14dqcl7efip9blsb58fg9fnnckssqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
